@@ -1,0 +1,13 @@
+version: '2.3'
+
+services:
+  python3:
+    image: gpuenv:python3
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    runtime: nvidia
+    tty: true
+    volumes:
+        - .:/home/gpuser/workspace
+    working_dir: /home/gpuser
