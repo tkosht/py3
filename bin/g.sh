@@ -6,6 +6,8 @@ git init
 git remote add origin git@github.com:tkosht/py3.git
 git fetch
 git pull origin master
-#git add .
-#git commit -m 'init: initial commit'
-#git push
+
+# edit .gitignore
+# git add .
+# git commit -m 'init: initial commit'
+# git push
