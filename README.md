@@ -15,14 +15,6 @@
 
 - `ex.py` を開く
 
-- サジェストされる 'Python' extension を `install` する
-
-    ![pyext](img/02.pyext.png)
-
-- インストール後、リロード
-
-    ![reload-requires](img/03.reload-requires.png)
-
 - `ex.py` の任意の行にブレークポイントをセット
 
     ![set-breakpoint](img/04.set-breakpoint.png)
